@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.lzfmy.model.Categorysecond" table="categorysecond" schema="shop">
+        <id name="csid" column="csid"/>
+        <property name="csname" column="csname"/>
+        <property name="cid" column="cid"/>
+    </class>
+</hibernate-mapping>
